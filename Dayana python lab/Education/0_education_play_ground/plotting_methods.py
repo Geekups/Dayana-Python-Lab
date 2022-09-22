@@ -1,3 +1,14 @@
+# از زیبا ترین قابلیت های زبان پایتون کتابخانه های
+# matplotlib, seaborn, numpy, pandas
+# هستند که به پردازش و ترسیم دیتا می پردازند
+# در این مرحله با برخی از قابلیت هایشان آشنا می شوید
+# کد های زیر را جداگانه اجرا کنید و به تحلیل آنها بپردازید
+# در انتها یک نمونه ساده شبیه همین کد ها بسازید و در فایلی جدا آنرا اجرا کنید
+# خروجی مرحله را در فایل زیپ قرار داده و برای مدیر تیم بفرستید
+#
+#
+
+#=================================== version 1 ===================
 # Importing packages 
 import matplotlib.pyplot as plt 
 # Define x and y values 
@@ -7,8 +18,7 @@ y = [8, 13, 21, 30, 31, 44, 50]
 plt.plot(x, y)
 plt.show()
 
-###
-
+#=================================== version 2 ===================
 # Importing packages 
 import numpy as np
 # Define x value 
@@ -90,144 +100,238 @@ plt.show()
 
 ###
 
-#importing the required libraries 
-import seaborn as sns 
-# Define the x and y data 
-x = [1, 2, 3, 4, 5] 
-y = [1, 5, 4, 7, 4] 
-sns.lineplot(x, y)
+#importing the required libraries 
+
+import seaborn as sns 
+
+# Define the x and y data 
+
+x = [1, 2, 3, 4, 5] 
+
+y = [1, 5, 4, 7, 4] 
+
+sns.lineplot(x, y)
+
 plt.show()
 
 ###
 
-# Define the x and y data 
-x = ['day 1', 'day 2', 'day 3']
-y = [1, 5, 4] 
-sns.lineplot(x, y)
+# Define the x and y data 
+
+x = ['day 1', 'day 2', 'day 3']
+
+y = [1, 5, 4] 
+
+sns.lineplot(x, y)
+
 plt.show()
 
 ###
 
-import numpy as np
-import matplotlib.pyplot as plt 
-# Dataset generation 
-objects = ('Python', 'C++', 'Julia', 'Go', 'Rust', 'c') 
-y_pos = np.arange(len(objects)) 
-performance = [10,8,6,4,2,1] 
-# Bar plot 
-plt.barh(y_pos, performance, align='center', alpha=0.5) 
-plt.yticks(y_pos, objects) 
-plt.xlabel('Usage') 
-plt.title('Programming language usage') 
+import numpy as np
+
+import matplotlib.pyplot as plt 
+
+# Dataset generation 
+
+objects = ('Python', 'C++', 'Julia', 'Go', 'Rust', 'c') 
+
+y_pos = np.arange(len(objects)) 
+
+performance = [10,8,6,4,2,1] 
+
+# Bar plot 
+
+plt.barh(y_pos, performance, align='center', alpha=0.5) 
+
+plt.yticks(y_pos, objects) 
+
+plt.xlabel('Usage') 
+
+plt.title('Programming language usage') 
+
 plt.show()
 
 ###
 
-import matplotlib.pyplot as plt 
-import seaborn as sns 
-x = ['A', 'B', 'C'] 
-y = [1, 5, 3] 
-sns.barplot(y, x)
+import matplotlib.pyplot as plt 
+
+import seaborn as sns 
+
+x = ['A', 'B', 'C'] 
+
+y = [1, 5, 3] 
+
+sns.barplot(y, x)
+
 plt.show()
 
 ###
 
-import numpy as np
-import matplotlib.pyplot as plt 
-# Dataset generation 
-data_dict = {'CSE':33, 'ECE':28, 'EEE':30} 
-courses = list(data_dict.keys()) 
-values = list(data_dict.values()) 
-fig = plt.figure(figsize = (10, 5))
-# Bar plot 
-plt.bar(courses, values, color ='green', 
- width = 0.5) 
-plt.xlabel("Courses offered") 
-plt.ylabel("No. of students enrolled") 
-plt.title("Students enrolled in different courses") 
+import numpy as np
+
+import matplotlib.pyplot as plt 
+
+# Dataset generation 
+
+data_dict = {'CSE':33, 'ECE':28, 'EEE':30} 
+
+courses = list(data_dict.keys()) 
+
+values = list(data_dict.values()) 
+
+fig = plt.figure(figsize = (10, 5))
+
+# Bar plot 
+
+plt.bar(courses, values, color ='green', 
+
+ width = 0.5) 
+
+plt.xlabel("Courses offered") 
+
+plt.ylabel("No. of students enrolled") 
+
+plt.title("Students enrolled in different courses") 
+
 plt.show()
 
 ###
 
-import pandas as pd
-plotdata = pd.DataFrame({ 
- "2018":[57,67,77,83],
- "2019":[68,73,80,79],
+import pandas as pd
+
+plotdata = pd.DataFrame({ 
+
+ "2018":[57,67,77,83],
+
+ "2019":[68,73,80,79],
+
  "2020":[73,78,80,85]},
- index=["Django", "Gafur", "Tommy", "Ronnie"]) 
-plotdata.plot(kind="bar",figsize=(15, 8))
-plt.title("FIFA ratings") 
-plt.xlabel("Footballer") 
+ index=["Django", "Gafur", "Tommy", "Ronnie"]) 
+
+plotdata.plot(kind="bar",figsize=(15, 8))
+
+plt.title("FIFA ratings") 
+
+plt.xlabel("Footballer") 
+
 plt.ylabel("Ratings")
 plt.show()
 
 ###
 
-#Creating the dataset 
-df = sns.load_dataset('titanic') 
-df_pivot = pd.pivot_table(df, 
-values="fare",index="who",columns="class", aggfunc=np.mean) 
-#Creating a grouped bar chart 
-ax = df_pivot.plot(kind="bar",alpha=0.5) 
-#Adding the aesthetics 
-plt.title('Chart title') 
-plt.xlabel('X axis title') 
-plt.ylabel('Y axis title') 
-# Show the plot 
+#Creating the dataset 
+
+df = sns.load_dataset('titanic') 
+
+df_pivot = pd.pivot_table(df, 
+
+values="fare",index="who",columns="class", aggfunc=np.mean) 
+
+#Creating a grouped bar chart 
+
+ax = df_pivot.plot(kind="bar",alpha=0.5) 
+
+#Adding the aesthetics 
+
+plt.title('Chart title') 
+
+plt.xlabel('X axis title') 
+
+plt.ylabel('Y axis title') 
+
+# Show the plot 
+
 plt.show()
 
 ###
 
-#Reading the dataset 
-titanic_dataset = sns.load_dataset('titanic') 
-#Creating column chart 
-sns.barplot(x = 'who',y = 'fare',data = titanic_dataset,palette = "Blues") 
-#Adding the aesthetics 
-plt.title('Chart title') 
-plt.xlabel('X axis title') 
-plt.ylabel('Y axis title') 
-# Show the plot 
+#Reading the dataset 
+
+titanic_dataset = sns.load_dataset('titanic') 
+
+#Creating column chart 
+
+sns.barplot(x = 'who',y = 'fare',data = titanic_dataset,palette = "Blues") 
+
+#Adding the aesthetics 
+
+plt.title('Chart title') 
+
+plt.xlabel('X axis title') 
+
+plt.ylabel('Y axis title') 
+
+# Show the plot 
+
 plt.show()
 
 ###
 
-#Reading the dataset 
-titanic_dataset = sns.load_dataset('titanic') 
-#Creating the bar plot grouped across classes 
-sns.barplot(x = 'who',y = 'fare',hue = 'class',data = titanic_datase
-t, palette = "Blues") 
-#Adding the aesthetics 
-plt.title('Chart title') 
-plt.xlabel('X axis title') 
-plt.ylabel('Y axis title') 
-# Show the plot 
+#Reading the dataset 
+
+titanic_dataset = sns.load_dataset('titanic') 
+
+#Creating the bar plot grouped across classes 
+
+sns.barplot(x = 'who',y = 'fare',hue = 'class',data = titanic_dataset, palette = "Blues") 
+
+#Adding the aesthetics 
+
+plt.title('Chart title') 
+
+plt.xlabel('X axis title') 
+
+plt.ylabel('Y axis title') 
+
+# Show the plot 
+
 plt.show()
 
 ###
 
-#Creating the dataset 
-cars = ['AUDI', 'BMW', 'NISSAN', 
- 'TESLA', 'HYUNDAI', 'HONDA'] 
-data = [20, 15, 15, 14, 16, 20] 
-#Creating the pie chart 
-plt.pie(data, labels = cars) 
-#Adding the aesthetics 
-plt.title('Chart title') 
-#Show the plot 
+#Creating the dataset 
+
+cars = ['AUDI', 'BMW', 'NISSAN', 
+
+ 'TESLA', 'HYUNDAI', 'HONDA'] 
+
+data = [20, 15, 15, 14, 16, 20] 
+
+#Creating the pie chart 
+
+plt.pie(data, labels = cars) 
+
+#Adding the aesthetics 
+
+plt.title('Chart title') 
+
+#Show the plot 
+
 plt.show()
 
 ###
 
-#Creating the dataset 
-cars = ['AUDI', 'BMW', 'NISSAN', 
- 'TESLA', 'HYUNDAI', 'HONDA'] 
-data = [20, 15, 15, 14, 16, 20] 
-myexplode = [0.2, 0, 0, 0,0,0.6] 
-#Creating the pie chart 
-plt.pie(data, labels = cars,explode = myexplode) 
-#Adding the aesthetics 
-plt.title('Chart title') 
-#Show the plot 
+#Creating the dataset 
+
+cars = ['AUDI', 'BMW', 'NISSAN', 
+
+ 'TESLA', 'HYUNDAI', 'HONDA'] 
+
+data = [20, 15, 15, 14, 16, 20] 
+
+myexplode = [0.2, 0, 0, 0,0,0.6] 
+
+#Creating the pie chart 
+
+plt.pie(data, labels = cars,explode = myexplode) 
+
+#Adding the aesthetics 
+
+plt.title('Chart title') 
+
+#Show the plot 
+
 plt.show()
 
 ###

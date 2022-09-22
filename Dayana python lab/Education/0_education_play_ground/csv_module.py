@@ -12,7 +12,7 @@ for lines in csvFile:
     
   ###################### v2 ########
   
-  import csv 
+import csv 
  
 # opening the CSV file 
 with open('data.csv', mode ='r')as file: 
@@ -22,4 +22,4 @@ with open('data.csv', mode ='r')as file:
  
  # displaying the contents of the CSV file 
  for lines in csvFile: 
- print(lines)
+  print(lines)
