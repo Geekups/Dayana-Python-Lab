@@ -67,3 +67,5 @@ import pandas as pd
 series_sample1 = pd.Series([-2,3,9,6])
 series_sample1.abs()
 print(series_sample1.values.take(2))
+
+print(series_sample1.index)

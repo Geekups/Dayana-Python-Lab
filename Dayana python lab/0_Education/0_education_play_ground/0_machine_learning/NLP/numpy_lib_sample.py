@@ -1,13 +1,19 @@
+# this python file created to show you some functionality of numpy labray
+# run the code and you will see this most usefull functions of numpy
 import numpy as np
 
 #--------------------------------------------- numpy, array and shape functions
 one_d = np.array([1,25,35,66], float) # 1_D numpy array
+print("-----------------------------------")
+print("one_d data")
 print(one_d)
 print("-----------------------------------")
 print("one_d.shape")
 print(one_d.shape) # 1x4 matris
 print("-----------------------------------")
 two_d = np.array([[15,25,12,5,0],[55,58,85,6,5]], float) # 2_D numpy array
+print("-----------------------------------")
+print("two_d data")
 print(two_d)
 print("-----------------------------------")
 print("two_d.shape")
@@ -40,7 +46,7 @@ print("-----------------------------------")
 
 #--------------------------------------------- numpy flatten function
 #flatten the whole array
-two_d_after_transpose = two_d.transpose()
-print("two_d_after_transpose")
-print(two_d_after_transpose)
+two_d_after_flatten = two_d.flatten()
+print("two_d_after_flatten")
+print(two_d_after_flatten)
 print("-----------------------------------")
