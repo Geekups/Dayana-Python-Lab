@@ -1,4 +1,4 @@
-#خب به عنوان غول این پارت یک کد زیبا و ناقص داریم که
+#خب به عنوان مرحله ۵ این پارت یک کد زیبا داریم که
 #که بهتر است اطلاعات بیشتری از آن ندهم
 #کد را بخوانید و تحلیل کنید :)
 #
@@ -97,7 +97,7 @@ class NetCat:
                     client_socket.send(b'BHP: #> ')
                     while '\n' not in cmd_buffer.decode():
                         cmd_buffer += client_socket.recv(64)
-                    response = excecute(cmd_buffer.decode())
+                    response = execute(cmd_buffer.decode())
                     if response:
                         client_socket.send(response.encode())
                     cmd_buffer = b''
