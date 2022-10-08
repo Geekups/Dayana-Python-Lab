@@ -106,6 +106,7 @@ if __name__ == "__main__":
     cl = Button(root, text = " clear ", fg = "black", bg = "#eef4f8", command = clear, height = 3, width = 10 )
     cl.grid(row = 7, column = 2 )
 
+    # auditor button
     decimal = Button(root, text = " . ", fg = "black", bg = "#f5f200", command = lambda: press("."), height = 3, width = 10 )
     decimal.grid(row = 7, column = 1 )
     
