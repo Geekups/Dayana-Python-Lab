@@ -6,11 +6,16 @@ but is good for you to take it seriusly
 
 here we writed some python codes. 
 
-and your job as a developer is: 
+and your task as a developer is: 
 
-/1_ analayze the code and write it like who wrote first/
+/1_ analayze the code and write what you see/ create diagram from code flow/ write steps of code work/ and ...
 
-/2_ find any mistake /
+/2_ find any mistake / write them too/ make it clear, with reasons 
 
-/3_ re fatore code / opto                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww                     
-                                                                           
+/3_ refatore the code / optotimize the code/ 
+
+/4_ write what you do and what you see with details and go to next level.
+
+** when you complete part one/ you can send your task result for dayana family and get advices about your task result/ to improve yourself
+
+*** this is your code. there is not be any exam! be honest to yourself, and do your best                                                
