@@ -1,6 +1,6 @@
-#خب به عنوان مرحله ۵ این پارت یک کد زیبا داریم که
-#که بهتر است اطلاعات بیشتری از آن ندهم
-#کد را بخوانید و تحلیل کنید :)
+# Well, as step 5 of this part, we have a beautiful code
+# that it is better not to give you more information about it
+# Read and analyze the code :)
 #
 #
 #

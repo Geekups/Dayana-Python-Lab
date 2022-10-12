@@ -1,14 +1,14 @@
-#مرحله سوم پارت دوم
-#در این پارت یه شما تمام موارد لازم برای نوشتن کد داده می شود. در این مرحله شما صرفا نویسنده اید
+# The third stage of the second part
+# In this part, you will be given all the necessary things to write the code. At this point, you are just a writer
 
 
-#کد مرحله قبل را به شکل زیر گسترش دهید
-#گسترش = develop
+# Expand the code from the previous step as follows
+# expansion = develop
 
-#از کاربر آدرس صفحه را دریافت کنید.علاوه بر آن یک عدد به عنوان درجه و یا عمق دریافت کنید 
-#به تعداد درجه دریافتی برای هر لینک در صفحه اصلی دوباره ضفحه مرتبط با لینک رادانلود کنید
-#سپس تمام لینک های آن را هم دانلود کنبذ و در همان فایل به عنوان زیر مجموعه لینک صفحه جدید قرار دهید
-#نوشتار زیر یک شبه کد برای درک بهتر شماست
+# Get the address of the page from the user. In addition, get a number as a degree or depth
+# Re-download the page related to the link according to the number of degrees received for each link on the main page
+# Then download all its links and put them in the same file, under the link set of the new page
+# The text below is a quasi-code for your better understanding
 
 # url = input("enter the url: ")
 # degree = input("enter the degree: ")
@@ -22,5 +22,5 @@
 #       for range 1 to degree:
 #           go_and_get_linked_page_content and do this until you reach do given degree
 #        
-#دقت داشته باشید که این فقط یک شبه کد برای درک بهتر شما است
+# Be careful that this is just a pseudo-code for your better understanding
 # tips: for cleaner code, please use functions
