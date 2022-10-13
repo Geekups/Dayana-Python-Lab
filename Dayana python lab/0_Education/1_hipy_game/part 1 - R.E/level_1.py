@@ -1,12 +1,12 @@
-# این کد ساده برای کاری کوتاه و استاتیک ساخته شده است
-# از دو کتابخانه زیر برای دریافت محتوای یک صفحه
-# و سپس بررسی و استخراج مواردی خاص از آن محتوا استفاده کرده ایم
-# وظیفه شما در این مرحله بسیار آسان است.
-# ایتدا کد را بخوانید و سپس مراحل نوشته شدن آنرا به ترتیب بنویسید
-# و در نهایت هر نوع اشکالی که در کد میبینید
-# یا هر گونه روش بهبود که در ذهن دارید را در ادامه تحلیل خود بنویسید
-# شماره و نام مرحله را در انتهای صفحه قرار داده و به مرحله بعد بروید
-# دقت کنید مطالبی که مینویسید در غالب فایل باشد
+# This simple code is made for short and static work
+# From the following two libraries to get the content of a page
+# And then we checked and extracted specific items from that content
+# Your task at this stage is very easy.
+# First, read the code and then write the steps to write it in order
+# And finally, any kind of problem you see in the code
+# Or write any improvement method you have in mind in the continuation of your analysis
+# Put the number and name of the step at the bottom of the page and go to the next step
+# Make sure that the content he writes is in the form of a file
 # pdf or txt  
 import requests
 import lxml.html as lh
