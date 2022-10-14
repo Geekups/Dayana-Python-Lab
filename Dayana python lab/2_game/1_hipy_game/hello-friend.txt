@@ -1,0 +1,22 @@
+hello friend
+
+wellcome to hipy game
+
+we build new education alghorithm for learning code deep, and also as fast as possile
+
+minimum time you will spend in this game is about one week [if you are mid level developer]
+
+and the maximum time that you will spend is 1.5 month [if you are started from zero]
+
+here we gonna work toghetr on some sample code and analayze some codes, try new methods and catch our mistakes
+
+do it again and again with some principles to rich our goals.
+
+some description are "persian" for now. but they will be fix, soon.
+
+        enjoy the game, 
+        result is not a real purpose
+
+=========================================================================================================================
+
+follow the instructions , think twice, code once!. or code once, think, then improve, then write code, then think, then improve .....
