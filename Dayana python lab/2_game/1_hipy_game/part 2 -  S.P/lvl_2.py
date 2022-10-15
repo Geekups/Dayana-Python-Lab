@@ -1,8 +1,8 @@
-#مرحله دوم پارت دوم
-#در این پارت یه شما تمام موارد لازم برای نوشتن کد داده می شود. در این مرحله شما صرفا نویسنده اید
+# The second stage of the second part
+# In this part, you will be given all the necessary things to write the code. At this point, you are just a writer
 
-#کدی بنویسید که یک صفحه وب را ابتدا دانلود کند
-# سپس تمام لینک های آنرا استخراج و در فایلی ذخیره کند
+# Write code that first downloads a web page
+# Then extract all its links and save them in a fileS
 
 # tips: you can use "bs4", "request", "lxml" libraries sample
 

@@ -1,0 +1,20 @@
+welcome to dayana hi py game , part 4
+
+in this part there is not any special sample or description or ideas
+
+there is no level, 
+
+this is for challenge your self, 
+
+and become a good developer.
+
+choose one or more projects from last parts,
+
+or you cam use aother person on github,
+
+see the code,
+
+analyze the code,
+
+and make it better and cleaner and more sexy than first version
+
