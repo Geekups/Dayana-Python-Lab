@@ -1,20 +1,18 @@
-# csv در کد زیر شما ۳ روش برای باز کردن و خواندن یک فایل 
-# را مشاهده میکنید
-# در وهله اول به عنوان چالشی برای شما
-# csv سعی کنید یک فایل 
-# حامل دیتای مثلا قیمت دلار یا بیت کوین
-# یا هرچیز که خودتان مایلیدرا بیابید و دانلود کنید
-# سپس آن را کنار این فایل پایتون قرار دهید
-# data.csv و مشخصا اسم 
-# که در کد صدا زده شده را به نام فایل دانلودیتان تغییر دهید
-# هر سه قسمت از کد زیر را به طور جداگانه اجرا کنید. تفاوت آنها را بنویسید
-# در ادامه لحظاتی خود را به عنوان یک دانشمند علم داده تصور کرده
-# و این ۳ روش را از دیدگاه خود تجزیه و تحلیل نموده
-# و روش برتر را با ذکر دلایل مشخص انتخاب کنید
-# pandas نکته: کتابخانه 
-# را باید در محیط کار خود نصب بنمایید
-# راهنمایی های لازم در اینترنت موجود است
-# موفق باشید
+# In the code below you have 3 ways to open and read a CSV file
+# Primarily as a challenge to you
+# Try to find and download a CSV file 
+# containing data, such as the price of dollars or 
+# bitcoins or whatever you want.
+# Then put it next to this python file
+# And exactly with the name data.csv 
+# which is called in the code to the name of your downloaded file
+# Execute all three parts of the following code separately. Write their differences
+# Next, imagine yourself as a data scientist for a moment
+# And analyze these 3 methods from your point of view
+# And choose the best method by mentioning specific reasons
+# Note: You must install the pandas library in your work environment
+# The necessary instructions are available on the Internet
+# Good luck!S
 ####################
 import csv 
  

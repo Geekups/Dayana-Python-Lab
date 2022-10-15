@@ -9,13 +9,14 @@
 # Make sure that the content he writes is in the form of a file
 # pdf or txt  
 import requests
-import lxml.html as lh
+from bs4 import BeautifulSoup
  
 request =requests.get('https://en.m.wikipedia.org/wiki/Machine_learning')
 
 page_content = request.content
 
-document = lh.fromstring(page_content)
+soup = BeautifulSoup(page_content, features="html.parser")
 
-for element in document.xpath('//a/@href'):
-    print(element)
+for element in soup.findAll('p'):
+    print(element.text)
+    
