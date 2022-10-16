@@ -1,12 +1,14 @@
-# The third stage, the first part
-# A little different
-# Maybe at first glance, it is impossible to analyze the following code
-# But with some precision and checking line by line 
-# It becomes much easier than the first view
-#First help: This is a code for 
-# brute force
-# Second help: This code is written to pass the 15th stage of 
-# the famous natas game
+# مرحله سوم پارت اول 
+#کمی متفاوت تر
+#شاید در نگاه اول, تحلیل کد زیر غیر ممکن باشد
+#اما باکمی دقت و بررسی خط به خط  
+#بسیار راحت تر از دیدگاه اولیتان می شود
+#کمک اول : این یک کد برای 
+# brute force 
+# .است
+# کمک دوم: این کد برای گذراندن مرحله ۱۵ام بازی معروف 
+# natas
+#نوشته شده است
 # first see the code, then think about it, and then you can google it 
 
 import requests

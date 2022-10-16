@@ -1,6 +1,6 @@
-# This is you and this giant, the last stage of the first part
-# After this step is over
-# Number the analysis of all steps and hand it over to the education (knowledge) team
+#این شما و این غول آخر پارت اول
+#پس از پابان این مرحله
+#تحلیل تمام مراحل را شماره گذاری کنید و به تیم آموزش تحویل بدهید
 #
 #
 

@@ -1,8 +1,7 @@
-# Welcome to step 4
-# In this game, you have to be very careful with the names
-# This code is a very small robot for a smaller task. But it can seem very difficult in your mind
-# Now the decision is yours. Be afraid or go through the code line by line to get the real meaning
-# Helpful tip: search for anything you don't know what it is
+# به مرحله 4 خوش اومدی. اینجای بازی تو باید به اسم ها دقت زیادی داشته باشی
+# این کد یک ربات خیلی کوچیک برای یک کار کوچیکتر هستش. ولی میتونه توی ذهنت خیلی سخت به نظر بیاد
+# حالا تصمیم با خودته. بترسی؟ یا خط به خط کد رو بررسی کنی تا تحیل اولیه اون رو به دست بیاری
+# نکته کمکی: هر چیزی که نمیدونی چیه رو سرچ کن
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
