@@ -1,0 +1,23 @@
+hi there 
+
+here we have some noisy code, codes that contain bugs
+
+this bugs can be:
+
+- Performance Bugs
+
+- Security Bugs
+
+- Logic Bugs
+
+- Syntax Errors
+
+- or maybe another type of bugs :)
+
+your job is to be pationt, focused, and be nice with the code you see
+
+fix them and send them to dayana team
+
+and we will help you to get better
+
+good luck
