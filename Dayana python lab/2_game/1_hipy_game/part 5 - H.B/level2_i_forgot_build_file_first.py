@@ -1,8 +1,3 @@
-# به مرحله 4 خوش اومدی. اینجای بازی تو باید به اسم ها دقت زیادی داشته باشی
-# این کد یک ربات خیلی کوچیک برای یک کار کوچیکتر هستش. ولی میتونه توی ذهنت خیلی سخت به نظر بیاد
-# حالا تصمیم با خودته. بترسی؟ یا خط به خط کد رو بررسی کنی تا تحیل اولیه اون رو به دست بیاری
-# نکته کمکی: هر چیزی که نمیدونی چیه رو سرچ کن
-
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
@@ -10,6 +5,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from time import sleep
 from fake_useragent import UserAgent
 import clipboard
+import requests
 
 for i in range(0, 1000):
     
